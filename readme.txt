@@ -1,0 +1,2 @@
+HTTPS Client code runs on RPI. It receives data in tty driver, then encrypts and send it to server with Public key (Publik.pem).
+HTTPS Server code runs on remote PC. It receives data sent from client, then decrypts the message with its private key (any.pem) and display it on the screen
